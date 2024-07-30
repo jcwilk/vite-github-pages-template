@@ -1,13 +1,14 @@
 import './style.css'
-import { setupCounter } from './counter.js'
+import { buildCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
     <h1>Hello Vite!</h1>
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button id="counter" type="button">Click!</button>
     </div>
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+let counter = buildCounter();
+counter.attach(document.querySelector('#counter'));

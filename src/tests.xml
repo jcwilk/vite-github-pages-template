@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="1" failures="0" errors="0" time="0.481">
+    <testsuite name="tests/example.test.js" timestamp="2024-07-30T21:35:21.812Z" hostname="tpwork3" tests="1" failures="0" errors="0" skipped="0" time="0.002">
+        <testcase classname="tests/example.test.js" name="basic addition" time="0.001">
+        </testcase>
+    </testsuite>
+</testsuites>

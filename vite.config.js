@@ -5,4 +5,10 @@ export default {
     outDir: '../dist', // Output directory for build
   },
   base: '/vite-github-pages-template/', // Replace with your repository name
+  test: {
+    globals: true,
+    environment: 'jsdom', // if you're doing any DOM testing
+    reporters: ['default', 'junit'],
+    outputFile: 'tests.xml',
+  },
 };
