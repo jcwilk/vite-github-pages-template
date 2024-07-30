@@ -1,3 +1,5 @@
+[![Run Tests](https://github.com/jcwilk/vite-github-pages-template/actions/workflows/test.yml/badge.svg)](https://github.com/jcwilk/vite-github-pages-template/actions?query=workflow%3A%22Run%20Tests%22)
+
 # vite-github-pages-template
 A just-enough template for throwing javascript into github pages
 

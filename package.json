@@ -8,11 +8,11 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ci": "vitest run --reporter=junit --outputFile=tests.xml"
+    "test:ci": "vitest run --reporter=junit"
   },
   "devDependencies": {
     "jsdom": "^24.1.1",
-    "vite": "^5.3.4",
+    "vite": "^5.3.5",
     "vitest": "^2.0.4"
   }
 }

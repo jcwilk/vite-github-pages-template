@@ -33,4 +33,4 @@ jobs:
         with:
           name: Vitest Tests
           path: tests.xml
-          reporter: junit
+          reporter: java-junit

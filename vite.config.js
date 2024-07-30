@@ -8,7 +8,7 @@ export default {
   test: {
     globals: true,
     environment: 'jsdom', // if you're doing any DOM testing
-    reporters: ['default', 'junit'],
-    outputFile: 'tests.xml',
+    reporters: ['junit'],
+    outputFile: '../tests.xml',
   },
 };
