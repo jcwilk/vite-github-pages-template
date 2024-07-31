@@ -23,6 +23,8 @@ Vite should handle automatically re-serving files as they change.
 
 # After building a repo from the template
 
+You'll need to go into your repo settings, "Actions -> General", and set "Workflow permissions" to "Read and write permissions" in order for the included CI/CD actions to work.
+
 Look for instances of "Vite App" and "vite-template" to rename to something more appropriate.
 
 Also as per the note, fix the test build badge at the top of the README to point to the new user/repo.
